@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:parth/radio.dart';
+import 'package:parth/radiobutton.dart';
 
 import 'Gridview_List.dart';
 import 'List1.dart';
@@ -18,14 +20,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      // title: 'Flutter Demo',
-      // theme: ThemeData(
-      //   primarySwatch: Colors.blue,
-      // ),
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       // initialRoute: '/',
       // routes: {'/': (context) => PageForth()},
 
-      home: PageForth(),
+      home: MyList(),
       // (title: 'Login Page'),
     );
   }
