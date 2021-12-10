@@ -1,14 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:parth/radio.dart';
 import 'package:parth/radiobutton.dart';
-
-import 'Gridview_List.dart';
-import 'List1.dart';
-import 'Snackbar.dart';
-import 'fastpage.dart';
-import 'page1.dart';
-import 'page2.dart';
-import 'page3.dart';
+import 'package:parth/time_picker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +20,7 @@ class MyApp extends StatelessWidget {
       // initialRoute: '/',
       // routes: {'/': (context) => PageForth()},
 
-      home: MyList(),
+      home: CheckboxPage(),
       // (title: 'Login Page'),
     );
   }

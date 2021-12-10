@@ -8,7 +8,18 @@ class MyList extends StatefulWidget {
 }
 
 class _MyListState extends State<MyList> {
-  List _data = ["Raj", "Jay", "Krish", "Kuldip"];
+  List _data = [
+    "Raj",
+    "Jay",
+    "Krish",
+    "Kuldip",
+    "jayesh",
+    "Haresh",
+    "Naresh",
+    "Parth",
+    "Om",
+    "Sahil",
+  ];
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,7 +31,7 @@ class _MyListState extends State<MyList> {
         children: [
           Expanded(
             child: ListView.builder(
-                itemCount: 4,
+                itemCount: 10,
                 itemBuilder: (BuildContext, int index) {
                   return Container(
                     margin: EdgeInsets.all(15),
