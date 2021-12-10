@@ -9,7 +9,6 @@ class MyList extends StatefulWidget {
 
 class _MyListState extends State<MyList> {
   List _data = [
-    "Raj",
     "Jay",
     "Krish",
     "Kuldip",
